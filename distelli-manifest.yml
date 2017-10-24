@@ -2,8 +2,8 @@ tommy/example-tomcat-war:
 
   Env:
     # Set the below enviornment variables for your environment
-    - CATALINA_HOME: "/var/lib/tomcat7"
-    - JAVA_HOME: "/usr/lib/jvm/java-7-oracle/jre"
+    - CATALINA_HOME: "/var/lib/tomcat8"
+    - JAVA_HOME: "/usr/lib/jvm/java-8-oracle/jre"
     # The port number below is only for reference. Set it to the
     #  port number of your tomcat server.
     - PORT: "8080"
@@ -38,7 +38,7 @@ tommy/example-tomcat-war:
     #- echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections    
     #- sudo apt-get -y install oracle-java7-installer
     #- sudo apt-get -y install oracle-java7-set-default
-    - sudo apt-get -y install tomcat7
+    - sudo apt-get -y install tomcat8
 
   PostInstall:
     - echo "PostStart"
