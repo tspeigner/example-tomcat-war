@@ -1,4 +1,4 @@
-tspeigner/example-tomcat-war:
+tommy/example-tomcat-war:
 
   Env:
     # Set the below enviornment variables for your environment
